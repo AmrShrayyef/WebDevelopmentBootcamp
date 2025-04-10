@@ -1,0 +1,9 @@
+git clone repo.url
+
+cd repoFolder
+
+# inside the project folder
+
+git add .
+git commit -m "Added hw01 and chapter01, fixed some bugs, solved a problem, added a feature, blah blah"
+git push
