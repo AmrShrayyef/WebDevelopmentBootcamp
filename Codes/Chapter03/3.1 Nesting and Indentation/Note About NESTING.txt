@@ -1,0 +1,6 @@
+It is better to use 
+<li>
+</li>
+than <li></li>
+
+for nesting so we can identify easly

@@ -1,0 +1,4 @@
+Don't use h1 then h3 there should be an h2 before starting h3 as desgin rule
+Don't use multiple h1 in one page use only one
+
+visit https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements

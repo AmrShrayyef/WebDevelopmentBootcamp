@@ -1,0 +1,18 @@
+<ul>
+
+<li>r</li>
+<li>s
+<li>x
+
+</ul>
+this would type 
+.r
+.s
+.x 
+without numbers but if we used order lists 
+<ol>
+</ol>
+it would show 
+1.r 
+2.s
+3.x
