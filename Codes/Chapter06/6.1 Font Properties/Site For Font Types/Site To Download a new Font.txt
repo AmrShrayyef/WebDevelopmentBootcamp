@@ -1,0 +1,4 @@
+fonts.google.com
+
+we download the font then add the url that link that font to our site then we add css also to our site of that font
+so in order for font to work on our site we need to add two things the font and the css

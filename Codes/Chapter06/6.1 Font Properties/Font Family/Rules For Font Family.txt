@@ -1,0 +1,3 @@
+When Using Fonts that consist of 3 words like Times New Roman we use "Times New Roman" instead of Times New Roman
+we add couple Fonts font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+so in case one font is not found at client pc the other font would work

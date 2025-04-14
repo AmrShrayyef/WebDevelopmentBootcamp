@@ -1,0 +1,4 @@
+to group couple of things on our website together for styling
+for example group a text and a photo together 
+
+use div as an invsible container then use pesticide extension in chrome to see all the elements in a page

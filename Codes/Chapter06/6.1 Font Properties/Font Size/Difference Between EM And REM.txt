@@ -1,0 +1,3 @@
+EM takes an element the parent
+REM takes the html element the root which is better so les say if i set it in html to 20 and set rem to 2
+= 40px
