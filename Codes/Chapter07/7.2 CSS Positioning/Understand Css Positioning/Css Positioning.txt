@@ -1,0 +1,5 @@
+static : by defualt is done 
+relative : it will move what u want relative to where u selected by the set values u assigned
+absloute : it will search of ansestor if not selected it will choose the top left of the web page and absloute have z index
+            which push anything we want under 
+fixed:  instead of webpage it will be fixed postion for the browser 

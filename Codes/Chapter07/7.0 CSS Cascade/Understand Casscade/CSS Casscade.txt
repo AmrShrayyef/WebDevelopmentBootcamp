@@ -1,0 +1,3 @@
+IT represent in which css code wins if it target the same element and proprty for example
+external lose to internal so if i have a code in style.css that apply red color to h1
+then i have an internal style that apply blue color to same h1 the blue will win 

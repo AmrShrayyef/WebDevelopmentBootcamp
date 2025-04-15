@@ -9,4 +9,19 @@ p {
   color: yellow;
   margin: 0;
   padding: 0;
+  font-size: 50px;
+}
+
+#outer-box{
+  border: 20px solid purple;
+}
+
+.white-text{
+  color: white;
+  background-color: red;
+  padding: 20px;
+}
+
+.yellow-text{
+  color: yellow;
 }
