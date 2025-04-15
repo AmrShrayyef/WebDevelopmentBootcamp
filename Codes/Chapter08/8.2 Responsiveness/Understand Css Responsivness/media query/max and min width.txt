@@ -1,0 +1,4 @@
+max and min width in responsive website 
+max if set to 600px any site with a screen of 600px or below should have a different style from bigger values 
+min is the oppsite
+we can combine them 
