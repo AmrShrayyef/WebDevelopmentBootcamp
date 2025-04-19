@@ -1,0 +1,51 @@
+1- Make your Website look better not croweded much so poeple pay more for your products
+2- chosing main colors for your website :
+      red : energy love intensity for cars and ads for that type of stuff
+      yellow : joy intellect attention graping cause it is hard to ignoore yellow (logo but not for long amount of viewing)
+      green : safty -  healthy - growth ( For food)
+      blue : stability- trust - serenity ( we are really trust worthy) wear blue to make people trust you
+      purple : royalty - wealth - for women
+
+3- combining Colors: 2 colors next to each other on Color wheel 
+   used in the body of website  logo navigation bars
+   weakness not good for standing out
+   to stand out use Complmentary Color pallets choosing 2 colors different from each other from wheel of colors
+   what you should't do is use it for text 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!! important: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+use a website Called Adobe Color to help you with this
+also use a website Colorhunt.co
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+4- typographry: 
+use serif typeface fonts to make your words stand out and make it look more serious and older
+for letter header for legal company or  magazine
+
+choose 2 fonts for 1 design choose them close to each other in shape so it won't look weird
+
+5-hierarchy: our eyes always drawm to the title of the page big one not the small one so we need to 
+            learn how to use this to our advantge to make customers look at what we want through colors also make
+            what we want to look at is using a strong color or something that stands out in the site we are trying to make
+            a- Color : if we have something bright and something greyed 
+            b- size: like we said above it help drawing attention to something like put ur email and what we do in our website
+            c-layout: block of text with pictures and different shapes and different hierarchy
+            !!!important!!! : do not use wikiepidia style of design hard to keep customer look so long at same line 
+            d- alignment : when using fonts location inside a box or a grid 
+            !!!!important!!!: reduce the numbers of aligment points in a webpage
+            e- white space : it is around ur words and elements it is very important to give spaces between things 
+               make it look more expensive 
+            f- audience : target in your design the people you are trying to sell to of u make a website
+               for kids dont make it gloomy sad but colorful     
+
+            felexiblity in building website is important !!!
+
+ 6- user experince UX:  try to make it simple sometimes and constant so make different parts of your 
+    website same as each other to make user find it easy to navigate your website
+    use F Layout to control how user read
+    use Z Layout FOR example Facebook 
+    think about mobile user experince when user browse your website on phone
+
+
+   avoid Dark patterns : trick users by showing them good things that inside are bad like perfomring an action you 
+                    dont need to make users buy more things or choose payed methods instead of free ways
