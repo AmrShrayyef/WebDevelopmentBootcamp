@@ -1,81 +1,91 @@
-/* Base Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 /* Global Body Styling */
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* COVER PHOTO SECTION */
-.cover-container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.cyber {
-  width: 100%;
-  height: 50vh;
-  object-fit: cover;
-}
-.cover-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0 1rem;
-}
-
-/* PROFILE IMAGE */
-.profile-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid white;
-  object-fit: cover;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-/* TYPOGRAPHY & SPACING */
-h1 {
-  font-weight: 700;
-  margin: 0.5rem 0;
-}
-p {
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.8;
-}
-.classy-font {
-  font-family: 'Playfair Display', serif;
-  font-size: 4.5rem;
-  font-weight: 700;
-  color: #cfa1a1;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-/* MOBILE / RESPONSIVE STYLES */
-@media (max-width: 768px) {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* COVER PHOTO SECTION */
+  .cover-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
   .cyber {
-    height: 40vh; /* Reduced cover image height */
+    width: 100%;
+    height: 50vh; /* Adjusts height for cover image */
+    object-fit: cover; /* Ensures proportionate cropping */
   }
-  .classy-font {
-    font-size: 3rem; /* Adjusted font size for smaller screens */
-    letter-spacing: 1px;
+  
+  .cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 1rem;
   }
-  p {
-    font-size: 1rem; /* Slight reduction for easier readability */
-  }
+  
+  /* PROFILE IMAGE */
   .profile-image {
-    width: 120px;
-    height: 120px;
-    border-width: 3px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   }
-}
+  
+  /* TYPOGRAPHY */
+  h1 {
+    font-weight: 700;
+    margin: 0.5rem 0;
+  }
+  
+  .classy-font {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 5vw, 4.5rem); /* Fluid font size */
+    font-weight: 700;
+    color: #cfa1a1; /* Elegant color */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.8; /* Improves readability */
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .cyber {
+      height: 40vh; /* Shorter height for smaller screens */
+    }
+  
+    .classy-font {
+      font-size: 2.8rem; /* Scales down titles */
+      letter-spacing: 1px; /* Reduces space between letters */
+    }
+  
+    h1 {
+      font-size: 2rem; /* Shrinks h1 for mobile */
+    }
+  
+    p {
+      font-size: 1rem; /* Smaller paragraph text */
+      line-height: 1.6; /* Adjusted line spacing for mobile */
+    }
+  
+    .profile-image {
+      width: 120px; /* Smaller profile image */
+      height: 120px;
+      border-width: 3px;
+    }
+  
+    .cover-text {
+      padding: 0 0.5rem; /* Narrower padding */
+    }
+  }
+  
