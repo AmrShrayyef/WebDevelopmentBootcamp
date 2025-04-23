@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score</title>
+    <style>
+        #result {
+            font-size: 24px;
+            color: red;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Love Score</h1>
+    <p>Check your love score by entering the secret password!</p>
+    <div id="result"></div> <!-- This will display the result -->
+
+    <script>
+        let love = Math.random();
+        let percent = love * 100;
+        let result = Math.floor(percent); // 0-99 (or +1 for 1-100)
+
+        let first = prompt("Enter your name")?.trim();
+        let second = prompt("Enter your lover's name")?.trim();
+        let password = prompt("Enter the secret password of 4 letters in Arabic to win");
+
+        // Get the result div
+        const resultDiv = document.getElementById("result");
+
+        // If password is correct, show 100000%
+        if (password === "بحبك") {
+            alert(first + " loves " + second + " with 100000% in love score!!!!");
+            resultDiv.textContent = `${first} ❤️ ${second} = 100000%`; // Update HTML
+        }
+        // If password is wrong, check names first
+        else {
+            if (typeof first === "string" && first && typeof second === "string" && second) {
+                alert("كلمة السر غير صحيحة"); // Wrong password message
+                alert(first + " loves " + second + " " + result + "%"); // Love score
+                resultDiv.textContent = `${first} ❤️ ${second} = ${result}%`; // Update HTML
+            } 
+            else {
+                alert("Please enter valid names (text only, not numbers or empty).");
+                resultDiv.textContent = "Invalid names entered."; // Update HTML
+            }
+        }
+    </script>
+</body>
+</html>

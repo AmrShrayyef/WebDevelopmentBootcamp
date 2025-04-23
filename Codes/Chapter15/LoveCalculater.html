@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score</title>
+    <script>
+        let love = Math.random();
+        let percent = love * 100;
+        let result = Math.floor(percent)+1;
+
+        let first = prompt("Enter your name")?.trim();
+        let second = prompt("Enter your lover's name")?.trim();
+        let password = prompt("Enter the secret password of 4 letters in Arabic to win");
+
+        // If password is correct, show 100000%
+        if (password === "بحبك") {
+            alert(first + " loves " + second + " with 100000% in love score!!!!");
+        }
+        // If password is wrong, check names first
+        else {
+            if (typeof first === "string" && first && typeof second === "string" && second) {
+                alert("كلمة السر غير صحيحة"); // Wrong password message
+                alert(first + " loves " + second + " " + result + "%"); // Love score
+            } 
+            else {
+                alert("Please enter valid names (text only, not numbers or empty).");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Love Score</h1>
+    <p>Check your love score by entering the secret password!</p>
+</body>
+</html>
