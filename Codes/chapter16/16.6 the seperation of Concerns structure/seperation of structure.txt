@@ -1,0 +1,7 @@
+document.querySelector("li").classlist; it give us a list of classes that are attached to this element
+document.querySelector("li").classlist.add("invisible"); will add a class inside the element li and name it hidden
+for example i make .invsible{visbilty: hidden} so i can hide anything i want thrugh adding invisible to it by java script
+
+
+
+document.querySelector("h1").classList.add("big");

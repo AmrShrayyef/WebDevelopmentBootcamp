@@ -1,0 +1,2 @@
+use html Dom in www3schools.com to change styles and learn about them 
+https://www.w3schools.com/jsref/dom_obj_style.asp

@@ -1,0 +1,22 @@
+car
+
+get property : car.color ///red
+set property : car.numberOfDoors=0;
+call method : car.drive();
+
+
+!!!!method is different from function!!!
+method is something an object can do so it must associated with it
+
+
+applying DOM TO a button tag:
+
+property : 
+    .innerhtml
+    .style
+    .firstchild
+
+methods : 
+    click()
+    appendchild()
+    setattribute()

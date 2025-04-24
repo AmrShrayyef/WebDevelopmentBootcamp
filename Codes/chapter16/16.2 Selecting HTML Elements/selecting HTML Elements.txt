@@ -1,0 +1,14 @@
+1. document.getElementsByTagName("li").style.color="purple"; is wrong cause we can't select a list and change it's color
+                                                            also it would select all the list
+2. document.getElementsByTagName("li")[2].style.color="purple";  /// we seclect second item inside the list
+3.document.getElementsByClassName("btn"); it will always give an array so it won't work
+4.document.getElementsByClassName("btn")[0];
+5.document.getElementsById("title"); it won't give an array so selecting this will get me 1 item
+6.document.querySelector(); it will only take a selector like .class #id tag
+7.document.querySelector("h1");
+8.document.querySelector(".class");
+9.document.querySelector("#id);
+10.we can combain things with querySelector
+document.querySelector("li a .class");
+11.document.querySelectorAll("li a .class"); all items have the same things
+12.generaly querySelector is more common

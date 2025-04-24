@@ -1,0 +1,5 @@
+1.document.querySelector("h1").innerHTML="<em> good bye</em>" //// text manipulation
+2.document.querySelector("h1"); will list all attributes to that html element
+3.document.querySelector("a").getAttribute("href"); will show you the site in our case it will show www.google.com
+4.document.querySelector("a").setAttribute("href" ,"https://www.bing.com"); setAttribute will take 2 paremetrs and then change it new one that u select 
+    so in our case we change google.com to bing.com 

@@ -1,0 +1,11 @@
+incooprating java script:
+1-  <body onload="alert('hello')";>
+    it will load the java script when body elment loaded up in our site , not good practice
+
+2-  <script type=text/javascript>
+    ur java script code
+    </script>
+
+3-  index.javascript 
+    through <script scr="index.js"></script>
+    however you need to put the script in html page in correct posistion right at the end before body close tag
