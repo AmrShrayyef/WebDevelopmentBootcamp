@@ -1,0 +1,5 @@
+let houseKeeper={
+    name:"rox",
+    age:39,
+    launguages:["english","arabic"]
+    }

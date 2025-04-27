@@ -1,0 +1,13 @@
+higher functions use other functions as input
+
+when using inspect on a website we see for example $0 on an element on the page we can use it to access that element through the console
+$0.innerHTML="amr" 
+in this case it will target the h1 element and change its value to amr
+
+0$.addEventListener("click" , function(){
+    alert("hello");
+})
+
+
+debugger;
+to find wat is wrong with ur code
