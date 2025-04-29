@@ -1,0 +1,26 @@
+$0.addEventListener("click", function(event){
+    console.log(event);        /////called out by the element
+});
+
+
+function sayHi(to){
+    console.log("hello"+ to);
+}
+sayHi("amr");
+
+
+
+function anotherAddEventListener(typeOfEvent, callback){
+    // Detect Event Code for examole it was p
+    let eventThatHappend={
+        eventType:"keypressed",
+        key: "p",
+        durationOfKeypress: 2
+    }
+    if (eventThatHappend.eventType=== typeOfEvent){
+        callback(eventThatHappend);
+    }
+}
+anotherAddEventListener("keypressed",function(event){
+    console.log(event);
+})
