@@ -1,0 +1,16 @@
+cd .. go one step behind
+cd ~  go to the root we go
+ctrl+a go to the start of the command
+ctrl+u  clear the commad
+ctrl+e  go to end of the command
+ls show all files and folders
+>>>>> alt  not a command but pressing alt key so i can click on the command where i want
+mkdir to make folders
+touch create a file
+open will open the file 
+open -a open the file in the aplication i want
+pwd show where i am
+rm * remove everything files///// care when using these , check where you are
+rm -r to remove a directory
+rm -f force no question ask 
+rm -rf
