@@ -1,0 +1,6 @@
+npm init     //// to create package.json
+npm install <name of the package you want to install>    /// go to npm.js website
+npm i sillyname  /// installing sillyname package
+
+
+add   "type": "module", to package.json to use modules
