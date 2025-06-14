@@ -1,0 +1,1 @@
+console.log(__dirname); //// wherever u take it , it will take you the path file u are in
