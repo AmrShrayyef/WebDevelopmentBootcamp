@@ -12,7 +12,7 @@ app.get("/",function(req,res){
 
 
     /*const city="Paris";
-    const apiKey="9738954d78830158ce8d3c76a59c7b7b";
+    const apiKey="9738954d7";
     const unit="metric";
     const url="https://api.openweathermap.org/data/2.5/weather?q="+ city +"&units="+unit+"&appid="+apiKey;
     https.get(url,function(response){
@@ -40,7 +40,7 @@ app.get("/",function(req,res){
 app.post("/",function(req,res){
     //console.log(req.body.cityName); 
     const city=req.body.cityName;
-    const apiKey="9738954d78830158ce8d3c76a59c7b7b";
+    const apiKey="9738954d78830158ce8";
     const unit="metric";
     const url="https://api.openweathermap.org/data/2.5/weather?q="+ city +"&units="+unit+"&appid="+apiKey;
     https.get(url,function(response){

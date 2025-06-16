@@ -2,10 +2,10 @@ openweathermap.org
 
 sign in and go api keys
 create a key 
-copy it  in our case it is 9738954d78830158ce8d3c76a59c7b7b
+copy it  in our case it is 9738954d78830158ce8d3
 
 
-https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=9738954d78830158ce8d3c76a59c7b7b
+https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=9738954d788301
 
 
 
