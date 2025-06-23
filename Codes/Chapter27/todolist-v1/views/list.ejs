@@ -1,0 +1,22 @@
+<%- include('header'); -%>
+  <h1>Today is <%= thisday %>!</h1>
+
+  <ul>
+    <% for (let i = 0; i < newListItem.length; i++) { %>
+      <li class="<%= newListItem[i].done ? 'done' : '' %>">
+        <form action="/toggle" method="post" style="display: inline;">
+          <input type="hidden" name="itemIndex" value="<%= i %>">
+          <input type="checkbox" onchange="this.form.submit()" <%= newListItem[i].done ? 'checked' : '' %> />
+          <span><%= newListItem[i].text %></span>
+        </form>
+      </li>
+    <% } %>
+  </ul>
+
+  <!-- Add new task form -->
+  <form action="/" method="post" class="add-form">
+    <input type="text" name="newItem" placeholder="New task" required />
+    <button type="submit" class="plus-button">+</button>
+  </form>
+
+<%- include('footer'); -%>

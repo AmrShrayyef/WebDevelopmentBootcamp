@@ -1,0 +1,19 @@
+git init
+git add chapter
+git status /// see what inside staging area
+git commit -m /// local repositry
+git callback
+git log
+git push /// take local to remote
+git remote add (name) https://addres of our repositry.git
+git push -u origin main
+touch gitignore 
+.DS_Store shoud git ignored 
+
+
+git rm --cached -r. /// remove everything from staging area
+git clone https://location of repo i want to copy for my self
+git branch alien.story
+get branch // to see all the stuff with branches
+get checkout alien.story // to switch to the branch
+git merge alien.story 

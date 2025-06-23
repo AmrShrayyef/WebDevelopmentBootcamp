@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+</head>
+<body>
+
+  <h1>Today is <%= thisday %>!</h1>
+  <h2>Current Time: <%= currentTime %></h2>
+
+  <ul>
+    <% for (let i = 0; i < newListItem.length; i++) { %>
+      <li>
+        <%= newListItem[i] %>
+        <form action="/delete" method="post" style="display:inline;">
+          <input type="hidden" name="itemIndex" value="<%= i %>">
+          <button type="submit">❌</button>
+        </form>
+      </li>
+    <% } %>
+  </ul>
+
+  <!-- Separated Add Item Form -->
+  <form action="/" method="post">
+    <input type="text" name="newItem" required>
+    <button type="submit">Add</button>
+  </form>
+
+</body>
+</html>
